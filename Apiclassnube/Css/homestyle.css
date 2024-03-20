@@ -1,0 +1,40 @@
+body {
+    background-image:url(../Resources/Img/cerrasesionxd.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Numans', sans-serif;
+    }
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff62; /* Color de fondo del contenedor */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333333; /* Color del texto */
+  }
+  
+  #logoutbtn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease; /* Transición suave al pasar el cursor */
+  }
+  
+  #logoutbtn:hover {
+    background-color: #45a049;
+  }
